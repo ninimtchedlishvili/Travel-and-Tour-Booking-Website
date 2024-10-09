@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Travel & Tour Booking Website</title>
+</head>
+
+<body>
+    <section
+        class="mx-auto w-[1920px] bg-[url('./src/images/homepage/banner.svg')] h-[976px] bg-no-repeat bg-center flex flex-col ">
+        <header>
+            <nav>
+                <div class="flex justify-between items-center mt-[63px] px-[321px] ">
+                    <img src="./src/images/homepage/logo.svg" alt="">
+                    <!-- not working -->
+                    <div class="">
+                        <ul class="flex justify-evenly gap-[30px]">
+                            <!-- home -->
+                            <div class="flex items-center gap-[8px] group">
+                                <li class="text-white ">Home</li>
+                                <svg class="h-5 w-5 flex-none text-white invisible group-hover:visible "
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                            <!-- About -->
+                            <div class="flex items-center gap-[8px] group">
+                                <li class="text-white">About</li>
+                                <svg class="h-5 w-5 flex-none text-white invisible group-hover:visible "
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <!-- Services -->
+                            <div class="flex items-center gap-[8px] group">
+                                <li class="text-white">Services</li>
+                                <svg class="h-5 w-5 flex-none text-white invisible group-hover:visible "
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <!-- Upcoming Packeges -->
+                            <div class="flex items-center gap-[8px] group">
+                                <li class="text-white">Upcoming Packeges</li>
+                                <svg class="h-5 w-5 flex-none text-white invisible group-hover:visible "
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                        </ul>
+                    </div>
+                    <button class="text-white rounded-[10px] bg-[#DF6951] w-[152px] h-[58px]">Get in Touch</button>
+                </div>
+            </nav>
+        </header>
+        <!-- Banner -->
+        <div class="mt-[167px] ml-[321px] justify-start">
+            <img src="./src/images/homepage/wave.svg" alt="">
+            <h1 class="text-white font-bold text-[58.51px] w-[631px]">No matter where you’re going to, we’ll take
+                you there</h1>
+            <div
+                class="flex items-center justify-between bg-[#F3F3F3] bg-opacity-60 rounded-[7px] backdrop-blur w-[844px] h-[102px] mt-[35px]">
+                <!-- 1/3 -->
+                <div class="ml-[33px] relative mt-[2px] rounded-md shadow-sm">
+                    <input type="text" name="destination" id="price"
+                        class="flex items-center justify-center bg-transparent w-[146px] py-[35px] text-lg placeholder:text-white"
+                        placeholder="Where to?">
+                </div>
+                <div class="h-[48px] w-[3px] br-[25px] bg-[#D0D0D0]"></div>
+
+                <!-- 2/3 -->
+                <div class=" relative mt-[2px] rounded-md shadow-sm">
+                    <button type="button"
+                        class="flex items-center justify-center bg-transparent w-[146px] py-[35px] text-white gap-[21px] text-lg ">
+                        Travel Type
+                        <svg class="h-5 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true" data-slot="icon">
+                            <path fill-rule="evenodd"
+                                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="h-[48px] w-[3px] br-[25px] bg-[#D0D0D0]"></div>
+                <!-- 3/3 -->
+                <button type="button"
+                    class="flex items-center justify-center bg-transparent w-[146px] py-[35px] text-white gap-[21px] text-lg ">
+                    Duration
+                    <svg class="h-5 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                        data-slot="icon">
+                        <path fill-rule="evenodd"
+                            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button class="mr-[33px] text-white rounded-[10px] bg-[#DF6951] w-[176px] h-[58px]">Submit</button>
+            </div>
+        </div>
+
+        <div class="flex gap-[14px] items-center ml-[320px] mt-[28px]">
+            <div class="flex items-center   ">
+                <img class="z-1" src="./src/images/homepage/client1.svg" alt="">
+                <img class="z-2 ml-[-12px]" src="./src/images/homepage/client3.svg" alt="">
+                <img class="z-3 ml-[-12px]" src="./src/images/homepage/client4.svg" alt="">
+                <img class="z-4 ml-[-12px]" src="./src/images/homepage/client5.svg" alt="">
+                <img class="z-5 ml-[-12px]" src="./src/images/homepage/client6.svg" alt="">
+                <img class="z-6 ml-[-12px]" src="./src/images/homepage/client2.svg" alt="">
+                <div
+                    class="ml-[-12px] w-[32px] h-[32px] rounded-[50%] bg-[#DF6951] flex items-center justify-center text-white ring-2 ring-white">
+                    +</div>
+            </div>
+            <p class="text-white">2,500 people booked Tommorowland Event in last 24 hours</p>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="mx-auto w-[1920px]">
+        <div class="bg-[#F7F7F7] h-[200px] ">
+            <ul class="flex flex-nowrap justify-between items-center mx-[171px]">
+                <!-- mt???? -->
+                <li class="mt-[75px]">
+                    <img src="./src/images/homepage/flyemirates.svg" alt="">
+                </li>
+                <li class="mt-[75px]">
+                    <img src="./src/images/homepage/trivago.svg" alt="">
+                </li>
+                <li class="mt-[75px]">
+                    <img src="./src/images/homepage/airbnb.svg" alt="">
+                </li>
+                <li class="mt-[75px]">
+                    <img src="./src/images/homepage/turkishairlilnes.svg" alt="">
+                </li>
+                <li class="mt-[75px]">
+                    <img src="./src/images/homepage/swiss.svg" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="w-[1920px] mx-auto">
+        <div class="flex mt-[110px] flex-col mx-auto">
+            <div class="flex flex-col mx-auto text-center">
+                <h5 class="text-[#DF6951]">CATEGORY</h5>
+                <h1 class="font-bold text-[50px] text-[#181E4B]">We Offer Best Services</h1>
+            </div>
+
+            <div class="flex items-center justify-between mt-[21px] mx-[319px]">
+                <!-- 1/4 -->
+                <div class="flex flex-col ">
+                    <div class="relative">
+                        <img class=" mx-auto" src="./src/images/homepage/services1.svg" alt="">
+                        <div
+                            class="z-[-1] absolute top-[37px] left-[75px] h-[50px] w-[50px] rounded-tl-lg rounded-tr-md rounded-br-2xl rounded-bl-md bg-[#FFF1DA]">
+                        </div>
+                    </div>
+
+                    <h4 class="text-center font-bold mt-[42px]">Guided Tours</h4>
+                    <p class="text-center mt-[12px]">sunt qui repellat saepe <br> quo velit aperiam id <br>braliquam
+                        placeat.</p>
+                </div>
+                <!-- 2/4 -->
+                <div
+                    class="relative shadow-[4px_4px_15px_rgba(0,0,0,0.1)] bg-white rounded-[36px] px-[33px] pt-[20px] pb-[44px]">
+                    <div class="flex flex-col ">
+                        <div class="relative">
+                            <img class="z-[10] mx-auto" src="./src/images/homepage/services2.svg" alt="">
+                            <div
+                                class="z-[5] absolute top-[20px] left-[25px] h-[50px] w-[50px] rounded-tl-md rounded-tr-lg rounded-br-md rounded-bl-2xl bg-[#FFF1DA]">
+                            </div>
+                        </div>
+                        <h4 class="text-center font-bold mt-[42px]">Best Flights Options</h4>
+                        <p class="text-center mt-[12px]">sunt qui repellat saepe <br> quo velit aperiam id <br>braliquam
+                            placeat.</p>
+                    </div>
+                    <div
+                        class="z-[-200] absolute top-[238px] left-[-35px] h-[100px] w-[100px]  rounded-[36px] bg-[#DF6951]">
+                    </div>
+
+                </div>
+
+                <!-- 3/4 -->
+                <div class="flex flex-col ">
+                    <div class="relative">
+                        <img class=" mx-auto" src="./src/images/homepage/services3.svg" alt="">
+                        <div
+                            class="z-[-1] absolute top-[25px] left-[80px] h-[50px] w-[50px] rounded-tl-md rounded-tr-2xl rounded-br-md rounded-bl-lg bg-[#FFF1DA]">
+                        </div>
+                    </div>
+                    <h4 class="text-center font-bold mt-[42px]">Religious Tours</h4>
+                    <p class="text-center mt-[12px]">sunt qui repellat saepe <br> quo velit aperiam id <br>braliquam
+                        placeat.</p>
+                </div>
+                <!-- 4/4 -->
+                <div class="flex flex-col ">
+                    <div class="relative">
+                        <img class=" mx-auto" src="./src/images/homepage/services4.svg" alt="">
+                        <div
+                            class="z-[-1] absolute top-[25px] left-[80px] h-[50px] w-[50px] rounded-tl-md rounded-tr-lg rounded-br-md rounded-bl-2xl bg-[#FFF1DA]">
+                        </div>
+                        <h4 class="text-center font-bold mt-[42px]">Medical insurance</h4>
+                        <p class="text-center mt-[12px]">sunt qui repellat saepe <br> quo velit aperiam id <br>braliquam
+                            placeat.</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="w-[1920px] mx-auto">
+        <div class="flex ml-[196px] mr-[320px] gap-[167px] mt-[171px] items-center ">
+            <div class="relative">
+                <img class="" src="./src/images/homepage/Illustration.svg" alt="">
+                <img class="absolute top-[610px] left-[610px] z-[-1]" src="./src/images/homepage/stars.svg" alt="">
+            </div>
+            <div>
+                <h5 class="text-[#DF6951] uppercase ">Honeymoon Specials</h5>
+                <h1 class="font-bold text-[50px] text-[#181E4B]">Our Romantic Tropical <br>Destinations</h1>
+                <p class="mt-[20px] w-[520px]">Et labore harum non nobis ipsum eum molestias mollitia et corporis
+                    praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta
+                    recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</p>
+                <button class="text-white mt-[31px] rounded-[10px] bg-[#DF6951] w-[176px] h-[57px]">View
+                    Packages</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="w-[1920px] mx-auto">
+        <div class="mt-[164px] ml-[277px]">
+
+            <div class="flex gap-[337px]">
+                <div class="flex flex-col gap-[42px] mt-[31px]">
+                    <div>
+                        <h5 class="text-[#DF6951]">Fast & Easy</h5>
+                        <h1 class="font-bold text-[50px] text-[#181E4B] w-[458px]">Get Your Favourite
+                            Resort Bookings</h1>
+                    </div>
+                    <!-- destination -->
+                    <div class="flex gap-[21px]">
+                        <img src="./src/images/homepage/destination.svg" alt="">
+                        <div>
+                            <h4 class="font-bold text-[16px]">Choose Destination</h4>
+                            <p class="text-[16px] w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Urna,
+                                tortor tempus. </p>
+                        </div>
+                    </div>
+                    <!-- availability -->
+                    <div class="flex gap-[21px]">
+                        <img src="./src/images/homepage/availability.svg" alt="">
+                        <div>
+                            <h4 class="font-bold text-[16px]">Check Availability</h4>
+                            <p class="text-[16px] w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Urna,
+                                tortor tempus. </p>
+                        </div>
+                    </div>
+                    <!-- lets's go-->
+                    <div class="flex gap-[21px]">
+                        <img src="./src/images/homepage/letsgo.svg" alt="">
+                        <div>
+                            <h4 class="font-bold text-[16px]">Lets's go</h4>
+                            <p class="text-[16px] w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Urna,
+                                tortor tempus. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ticket -->
+                <div
+                    class="relative bg-[white] shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-[26px] px-[25px] pt-[20px] h-[400px] mt-[78px]">
+                    <div>
+                        <img src="./src/images/homepage/hawaii.svg" alt="">
+                    </div>
+                    <div class="mt-[26px]">
+                        <p class="font-[18px] font-bold">Trip to Hawaii</p>
+                        <div class="mt-[13px]">
+                            <p class="font-[#84829A]">14-29 June | by JR Martinax</p>
+                        </div>
+                        <div class="mt-[21px] flex gap-[18px]">
+                            <img src="./src/images/homepage/leaf.svg" alt="">
+                            <img src="./src/images/homepage/map.svg" alt="">
+                            <img src="./src/images/homepage/send.svg" alt="">
+                        </div>
+                        <div class="flex justify-between mt-[29px]">
+                            <div class="flex gap-[15px]">
+                                <img src="./src/images/homepage/building.svg" alt="">
+                                <p>60 people are interested</p>
+                            </div>
+                            <div>
+                                <img src="./src/images/homepage/heart.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="absolute top-[306px] left-[-65px] z-[-1]" src="./src/images/homepage/stars2.svg" alt="">
+
+                    <!-- trip to rome -->
+                    <div class="absolute top-[219px] left-[215px] flex rounded-[18px] w-[263px] h-[129px] bg-[white]">
+                        <div class="mt-[18px] ml-[20px] flex gap-[12px]">
+                            <img class="w-[50px] h-[50px]" src="./src/images/homepage/rome.svg" alt="">
+                            <div>
+                                <p class="text-[#84829A]">ongoing</p>
+                                <h5 class="font-[#18px] font-semibold">Trip To Rome</h5>
+                                <div class="flex flex-col  mt-[14px] gap-[5px]">
+                                    <p><span class="text-[#DF6951]">40% </span>completed</p>
+
+                                    <!-- progress bar -->
+                                    <div class="w-[156px] h-[3px] bg-[red]"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="absolute top-[-127px] left-[161px] w-[692px] h-[385px] z-[-10]">
+                        <img src="./src/images/homepage/plane.svg" alt="">
+                    </div>>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- banner #2 -->
+    <section class="w-[1920px] mx-auto mt-[81px]">
+        <img src="./src/images/homepage/banner2.svg" alt="">
+    </section>
+
+</body>
+
+</html>
